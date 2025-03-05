@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: #8B4513;
+    line-height: 2;
+    background-image: url("https://think360studio-media.s3.ap-south-1.amazonaws.com/download/india-flag-2021-wallpaper-1.png");
+    background-size: contain;
+    background-attachment: scroll;
+}
+
+h1{
+    padding-bottom: 1px;
+}
+header {
+    text-align: center;
+    padding: 50px 20px;
+    position: relative;
+}
+
+header p{
+    font-size: 20px;
+    color: black;
+}
+
+.logo {
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(179, 245, 240);
+    margin:auto;
+    text-align: center;
+    padding-top: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+
+.cta-button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+
+
+.cta-button1 {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.cta-button2 {
+    background-color: whitesmoke;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.cta-button3 {
+    background-color: lightgreen;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+
+
+.cta-button:hover {
+    background-color: #969021;
+}
+
+.header-image {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fff;
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    text-align: center;
+    max-width: 300px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.feature-item img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-item h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.map-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f5e8c7;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.map-image {
+    width: 600px;
+    height: auto;
+    margin: 20px;
+}
+
+.map-description {
+    max-width: 300px;
+    text-align: left;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
