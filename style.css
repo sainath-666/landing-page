@@ -1,3 +1,24 @@
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .features {
+        flex-direction: column; /* Stack features vertically */
+        align-items: center; /* Center items horizontally */
+    }
+
+    .feature-item {
+        max-width: 90%; /* Adjust width for mobile */
+        margin-bottom: 20px; /* Add space between items */
+    }
+
+    .map-image {
+        width: 90%; /* make map image responsive */
+    }
+
+    .map-description{
+        padding-left:0;
+        text-align: center;
+    }
+}
 
 
 body {
@@ -5,18 +26,20 @@ body {
     margin: 0;
     color: #8B4513;
     line-height: 2;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    position: relative;
     background-image: url("https://think360studio-media.s3.ap-south-1.amazonaws.com/download/india-flag-2021-wallpaper-1.png");
-    background-size: contain;
-    background-attachment: scroll;
+    background-size: cover;
+    background-attachment:unset;
+    background-repeat: no-repeat;
 }
 
 h1{
     padding-bottom: 1px;
-}
-header {
-    text-align: center;
-    padding: 50px 20px;
-    position: relative;
 }
 
 header p{
